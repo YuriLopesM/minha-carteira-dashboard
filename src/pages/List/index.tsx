@@ -36,7 +36,7 @@ const List: React.FC = () => {
                 </button>
                 <button 
                 type="button"
-                className="tag-filter tag-filter-eventual"
+                className="tag-filter tag-filter-eventuals"
                 >
                     Eventuais
                 </button>
@@ -48,8 +48,7 @@ const List: React.FC = () => {
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
-                />
-                
+                />                
             </Content>
         </Container>
 
