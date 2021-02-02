@@ -21,54 +21,84 @@ const List: React.FC = () => {
 
             <Content>
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
                 <HistoryFinanceCard
-                cardColor = '#313862'
                 tagColor = '#E44C4E'
                 title="Conta de Luz"
                 subtitle="12/12/2012"
                 amount="R$ 130,00"
                 />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                <HistoryFinanceCard
+                tagColor = '#E44C4E'
+                title="Conta de Luz"
+                subtitle="12/12/2012"
+                amount="R$ 130,00"
+                />
+                
                 
             </Content>
         </Container>
