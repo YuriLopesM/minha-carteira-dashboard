@@ -19,7 +19,7 @@ export const TitleContainer = styled.div<ITitleContainerProps>`
             content: '';
             display: block;
             width: 65px;
-            border-bottom: 10px solid ${props => props.lineColor}
+            border-bottom: 8px solid ${props => props.lineColor}
         }
     } 
 `;
