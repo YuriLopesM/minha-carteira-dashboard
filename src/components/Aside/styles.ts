@@ -4,7 +4,7 @@ export const Container = styled.div`
     grid-area: AS;
     background-color: ${props => props.theme.colors.secondary };
 
-    border-right: 2px solid ${props => props.theme.colors.gray};
+    border-right: 1px solid ${props => props.theme.colors.gray};
     padding-left: 20px
 `;
 
