@@ -18,4 +18,4 @@ export const ToggleSelector = styled(Switch).attrs<ReactSwitchProps>(
         offColor: theme.colors.info
     }))<ReactSwitchProps>`
     margin: 0 7px;
-    `;
+`;
