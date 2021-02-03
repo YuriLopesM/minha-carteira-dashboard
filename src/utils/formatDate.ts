@@ -9,7 +9,6 @@ const formatDate = (date: string): string =>{
     const year = dateFormatted.getFullYear();
 
     
-
     return `${day}/${month}/${year}`;
 };
 
