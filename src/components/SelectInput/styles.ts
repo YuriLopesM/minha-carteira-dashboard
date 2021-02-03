@@ -5,6 +5,7 @@ export const Container = styled.div`
         padding: 9px 10px;
         border-radius: 5px;
         margin-left: 8px;
+        cursor: pointer;
     }
 `;
 
