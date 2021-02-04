@@ -96,14 +96,14 @@ const Dashboard: React.FC = () => {
                     color="#4E41F0"
                 />
                 <WalletBox
-                    title="Entrada"
+                    title="Entradas"
                     amount={5000.00}
                     footerLabel="Última atualização em xx/xx/xxxx"
                     icon="arrowUp"
                     color="#F7931B"
                 />
                 <WalletBox
-                    title="Saída"
+                    title="Saídas"
                     amount={4850.00}
                     footerLabel="Última atualização em xx/xx/xxxx"
                     icon="arrowDown"
