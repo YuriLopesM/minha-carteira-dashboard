@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 48%;
-    height: 260px;
+    width: 49%;
+    height: 300px;
 
     background-color: ${props => props.theme.colors.tertiary};
     color: ${props => props.theme.colors.white};
