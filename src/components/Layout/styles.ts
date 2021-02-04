@@ -13,7 +13,7 @@ export const Grid = styled.div`
     grid-template-areas:
     'AS MH'
     'AS CT';
-
+    overflow-x: hidden;
     height: 100vh;
     
 `;
