@@ -5,8 +5,8 @@ interface ILegendProps {
 }
 
 export const Container = styled.div`
-    width: 48%;
-    height: 260px;
+    width: 49%;
+    height: 300px;
 
     margin: 10px 0;
 
@@ -29,7 +29,7 @@ export const SideLeft = styled.aside`
 export const LegendContainer = styled.ul`
     list-style: none;
 
-    height: 160px;
+    height: 200px;
     padding: 5px;
     overflow-y: scroll;
 
@@ -60,7 +60,7 @@ export const Legend = styled.li<ILegendProps>`
     > div {
         background-color: ${props => props.color};
 
-        width: 40px;
+        width: 55px;
         height: 40px;
         border-radius: 5px;
 
@@ -78,5 +78,7 @@ export const Legend = styled.li<ILegendProps>`
 `;
 
 export const SideRight = styled.main`
-
+    display: flex;
+    flex: 1;
+    justify-content: center;
 `;
