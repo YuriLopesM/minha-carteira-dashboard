@@ -4,6 +4,7 @@ import ContentHeader from '../../components/ContentHeader';
 import SelectInput from '../../components/SelectInput';
 import WalletBox from '../../components/WalletBox';
 import MessageBox from '../../components/MessageBox';
+import PieChart from '../../components/PieChart';
 
 import happyImg from '../../assets/happy.svg';
 import sadImg from '../../assets/sad.svg';
@@ -15,18 +16,11 @@ import expenses from '../../repositories/expenses';
 import listOfMonths from '../../utils/months';
 
 import { Container, Content } from './styles'
-import { exception } from 'console';
+
 
 const Dashboard: React.FC = () => {
     const [monthSelected, setMonthSelected] = useState<number>(new Date().getMonth() + 1);
     const [yearSelected, setYearSelected] = useState<number>(new Date().getFullYear());
-
-    const options = [
-        { value: 'Rodrigo', label: 'Rodrigo' },
-        { value: 'Rodrigo', label: 'Rodrigo' },
-        { value: 'Rodrigo', label: 'Rodrigo' },
-    ]
-
 
     const years = useMemo(() => {
         let uniqueYears: number[] = [];
@@ -115,7 +109,7 @@ const Dashboard: React.FC = () => {
                 footerText: "Verifique seus gastos e tente cortas algumas coisas desnecessárias.",
                 icon: sadImg,
             }
-        } else if (totalBalance == 0){
+        } else if (totalBalance === 0){
             return {
                 title: "Ufa!",
                 description: "Neste mês você gastou exatamente o que ganhou!",
@@ -198,6 +192,8 @@ const Dashboard: React.FC = () => {
                     footerText={message.footerText}
                     icon={message.icon}
                 />
+
+                <PieChart></PieChart>
             </Content>
         </Container>
     );
