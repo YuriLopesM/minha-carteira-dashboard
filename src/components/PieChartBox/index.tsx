@@ -40,7 +40,7 @@ const PieChartBox: React.FC<IPieChartProps>= ( {
         <SideRight>
             <ResponsiveContainer>
                 <PieChart>
-                    <Pie data={data} dataKey="percent">
+                    <Pie stroke="null" data={data} dataKey="percent">
                         {
                             data.map((indicator) =>(
                                 <Cell key={indicator.name} fill={indicator.color}/>
