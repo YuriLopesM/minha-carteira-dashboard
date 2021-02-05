@@ -11,6 +11,7 @@ import BarChartBox from '../../components/BarChartBox';
 import happyImg from '../../assets/happy.svg';
 import sadImg from '../../assets/sad.svg';
 import grinningImg from '../../assets/grinning.svg';
+import thinkingImg from '../../assets/thinking.svg';
 
 import gains from '../../repositories/gains';
 import expenses from '../../repositories/expenses';
@@ -117,7 +118,7 @@ const Dashboard: React.FC = () => {
                 title: "Ops!",
                 description: "Neste mês não há registros de entradas ou saídas",
                 footerText: "Parece que você não fez nenhum registro no mês e ano selecionado.",
-                icon: sadImg,
+                icon: thinkingImg,
             }
         } else if (totalBalance === 0) {
             return {
@@ -134,7 +135,7 @@ const Dashboard: React.FC = () => {
                 icon: happyImg,
             }
         }
-    }, [totalBalance])
+    }, [totalBalance, totalGains, totalExpenses])
 
 
     const relationExpensesVersusGains = useMemo(() => {
@@ -159,7 +160,7 @@ const Dashboard: React.FC = () => {
         ];
 
         return data;
-    }, [totalGains, totalExpenses])
+    }, [totalGains, totalExpenses ])
 
 
     const historyData = useMemo(() => {
