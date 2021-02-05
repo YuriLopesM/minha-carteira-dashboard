@@ -24,7 +24,7 @@ export const SideLeft = styled.aside`
     padding: 30px 20px;
 
     > h2 {
-        margin-bottom: 10px;
+        margin-bottom: 57px;
     }
 `;
 
@@ -45,7 +45,7 @@ export const LegendContainer = styled.ul`
     }
 
     ::-webkit-scrollbar-track{
-        background-color: ${props => props.theme.colors.tertiary};
+        background-color: none;
     }
     
 `;
