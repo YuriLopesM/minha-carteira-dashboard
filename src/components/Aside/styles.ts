@@ -6,7 +6,7 @@ interface IContainerProps {
 
 export const Container = styled.div<IContainerProps>`
     grid-area: AS;
-    background-color: ${props => props.theme.colors.secondary };
+    background-color: ${props => props.theme.colors.secondary};
 
     border-right: 1px solid ${props => props.theme.colors.gray};
     padding-left: 20px;
@@ -41,8 +41,7 @@ export const LogImg = styled.img`
     width: 40px;
 
     @media(max-width: 600px){
-        height: 25px;
-        width: 25px;
+        display: none;
     }
 `;
 
@@ -104,5 +103,31 @@ export const MenuItemButton = styled.button`
     > svg {
         font-size: 20px;
         margin-right: 7px;
-    }
+    }  
 `;
+
+export const ToggleMenu = styled.button`
+        width: 40px;
+        height: 40px;
+
+        border-radius: 5px;
+        font-size: 25px;
+        background-color: ${props => props.theme.colors.warning};
+        color: ${props => props.theme.colors.white};
+        
+        transition: opacity .3s;
+
+        &:hover{
+            opacity: .7;
+        }
+
+        display: none;
+        
+        @media(max-width: 600px){
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+    `;

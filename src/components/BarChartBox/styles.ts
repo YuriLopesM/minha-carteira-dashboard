@@ -95,6 +95,11 @@ export const Legend = styled.li<ILegendProps>`
             font-size: 10px;        
             line-height: 30px;
         }
+
+        > span {
+            font-size: 12px;
+            font-weight: 500;
+        }
     }
 `;
 
