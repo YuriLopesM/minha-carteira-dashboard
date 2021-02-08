@@ -8,8 +8,9 @@ import {
     Profile,
     Welcome,
     UserName,
-    Toggle
 } from './styles';
+
+import Toggle from '../Toggle';
 
 
 const MainHeader: React.FC = () => {

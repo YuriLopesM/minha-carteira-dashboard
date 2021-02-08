@@ -37,7 +37,6 @@ export const Header = styled.header`
 
     > h2 {
         margin-bottom: 20px;
-        padding-left: 16px;
     }
 
     @media(max-width: 1200px){
