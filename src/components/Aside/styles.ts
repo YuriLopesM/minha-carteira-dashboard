@@ -18,7 +18,7 @@ export const Container = styled.div<IContainerProps>`
     position: relative;
 
     @media(max-width: 600px){
-        padding-left: 7px;
+        padding-left: 20px;
         position: fixed;
         z-index: 2;
 
@@ -65,9 +65,9 @@ export const MenuContainer = styled.nav`
 `;
 
 export const MenuItemLink = styled.a`
-    color: ${props => props.theme.colors.info};
+    color: ${props => props.theme.colors.white};
     text-decoration: none;
-    transition: opacity .3s;
+    transition: all .3s;
     margin: 10px 0;
     font-weight: 500;
     
@@ -76,7 +76,7 @@ export const MenuItemLink = styled.a`
 
     &:hover {
         opacity: .7;
-        
+        transform: translateX(10px)
     }
 
     > svg {
@@ -86,7 +86,7 @@ export const MenuItemLink = styled.a`
 `;
 
 export const MenuItemButton = styled.button`
-    color: ${props => props.theme.colors.info};
+    color: ${props => props.theme.colors.warning};
     background: none;
     border:none; 
     margin: 10px 0;
@@ -97,11 +97,11 @@ export const MenuItemButton = styled.button`
     display: flex;
     align-items: center;
 
-    transition: opacity .3s;
+    transition: all .3s;
 
     &:hover {
         opacity: .7;
-        
+        transform: translateX(10px)
     }
 
     > svg {
