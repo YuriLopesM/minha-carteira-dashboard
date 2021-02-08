@@ -6,20 +6,20 @@ interface ILegendProps {
 
 const animate = keyframes`
     0% {
-        transform: translateX(100px);
+        transform: translateY(100px);
         opacity: 0;
     }
     50%{
         opacity: .3;
     }
     100%{
-        transform: translateX(0px);
+        transform: translateY(0px);
         opacity: 1;
     }
 `;
 
 export const Container = styled.div`
-    width: 48%;
+    width: 49%;
     min-height: 260px;
     margin: 10px 0;
     background-color: ${props => props.theme.colors.tertiary};
@@ -27,7 +27,7 @@ export const Container = styled.div`
     
     border-radius: 7px;
     display: flex;
-    animation: ${animate} .5s;
+    animation: ${animate} 1s;
     @media(max-width: 1200px){
         display: flex;
         flex-direction: column;
