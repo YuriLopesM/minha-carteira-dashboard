@@ -17,7 +17,7 @@ export const Logo = styled.div`
     display: flex;
     align-items: center;
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     > h2 {
         color: ${props => props.theme.colors.white};
@@ -40,10 +40,14 @@ export const Form = styled.form`
 
     background-color: ${props => props.theme.colors.tertiary};
 
+    > * {
+        margin-bottom: 10px;
+    }
+
 `;
 
 export const FormTitle = styled.h1`
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     color: ${props => props.theme.colors.white};
 
     &::after{
