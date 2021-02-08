@@ -19,20 +19,20 @@ const AuthProvider: React.FC = ({ children }) => {
         if(email === 'yuri@email.com' && password === '1234'){
             localStorage.setItem('@minha-carteira:logged', 'true');
             setLogged(true);
-        } else {
-            alert ('Senha ou usuário inválidos!');
+        }else{
+            alert('Senha ou usuário inválidos!');
         }
     }
 
     const signOut = () => {
-        localStorage.removeItem('@minha-carteira-logged');
+        localStorage.removeItem('@minha-carteira:logged');
         setLogged(false);
     }
 
     return (
         <AuthContext.Provider value={{logged, signIn, signOut}}>
             {children}
-        </AuthContext.Provider> 
+        </AuthContext.Provider>
     );
 }
 
