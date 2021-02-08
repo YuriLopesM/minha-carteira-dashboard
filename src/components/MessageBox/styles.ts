@@ -26,6 +26,7 @@ export const Container = styled.div`
     }
 
     @media(max-width: 770px){
+        width: 100%;
         > header h1 {
             font-size: 24px;
 
@@ -41,7 +42,6 @@ export const Container = styled.div`
     }
 
     @media(max-width: 420px){
-        width: 100%;
         height: auto;
 
         >header p {
