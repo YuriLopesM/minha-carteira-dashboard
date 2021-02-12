@@ -62,4 +62,3 @@ This software is licensed under the [MIT License](https://github.com/YuriLopesM/
   You can see all information about me in my profile. 
   Feel free to send me a message, feedback or something :smile:
 </p> 
-
