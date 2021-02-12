@@ -3,12 +3,16 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 
 ## Description
 
+  
+
 ## 🚩 Table of Contents
 
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Credits and Libraries](#-credits-and-libraries)
 - [License](#-license)
+
+  
 
 ## 🍉 Installation
 
@@ -22,7 +26,7 @@ Create a `git clone` or download the source of the project. Use a package manage
  yarn install
 ```
 
-  
+    
   
 ## 🌬️ Usage
 
