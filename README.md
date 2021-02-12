@@ -1,7 +1,7 @@
 # "Minha Carteira" Dashboard
 Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeScript 📘💙
 
-## Description
+## :octocat: Description
 
   
 
