@@ -8,7 +8,7 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 ## 🚩 Table of Contents
 
 - [Installation](#-installation)
-- [Usage](#-usage)
+- [Usage](#-Usage)
 - [Credits and Libraries](#-credits-and-libraries)
 - [License](#-license)
 
