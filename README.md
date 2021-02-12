@@ -5,7 +5,7 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 
 **“Minha Carteira” (My Wallet)** is an application to organize your bills, using dashboards to view information and pages for cash inflows and outflows.
 
-✨ This is just a Front-end app, using .JSON files to reproduce the data. In the future, I want to implement this app with a Back-end and Database.
+✨ This is just a Front-end app, using JSON files to reproduce the data. In the future, I want to implement this app with a Back-end and Database.
   
 
 ## 🚩 Table of Contents
