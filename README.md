@@ -12,8 +12,6 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 - [Credits and Libraries](#-credits-and-libraries)
 - [License](#-license)
 
-  
-
 ## 🍉 Installation
 
 Create a `git clone` or download the source of the project. Use a package manager in order to install all dependencies. Examples:
@@ -25,8 +23,6 @@ Create a `git clone` or download the source of the project. Use a package manage
 ```bash
  yarn install
 ```
-
-    
   
 ## 🌬️ Usage
 
@@ -39,8 +35,6 @@ To run this project, simple use:
 ```bash
  yarn start
 ```
-
-  
   
 ## 🙌 Credits and Libraries
   
@@ -52,13 +46,11 @@ Library | Used for | NPM and Documentation
 
 **Credits to [rodrigorgtic](https://github.com/rodrigorgtic) for his good course! 💙**
 
-  
   
 ## 📜 License
 
 This software is licensed under the [MIT License](https://github.com/YuriLopesM/minha-carteira-dashboard/blob/master/LICENSE) © [rodrigorgtic](https://github.com/rodrigorgtic).
 
-  
   
 ## 🧑‍  About the creator
 
