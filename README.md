@@ -1,7 +1,7 @@
 # "Minha Carteira" Dashboard
 Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeScript 📘💙
 
-## :octocat: Description
+## 📢 Description
 
   
 
@@ -38,11 +38,12 @@ To run this project, simple use:
   
 ## 🙌 Credits and Libraries
   
-Library | Used for | NPM and Documentation
+Library | Used for | Documentation
 --- | --- | ---
 **ReactJS** | Create the application | [NPM](https://www.npmjs.com/package/react), [Website](https://pt-br.reactjs.org/) and [GitHub](https://github.com/facebook/react)
-**React CountUp** | Animation of numbers when entering the dashboard | [NPM](https://www.npmjs.com/package/react-countup), [Website](https://inorganik.github.io/countUp.js/) and [GitHub](https://github.com/glennreyes/react-countup)
-**Recharts** | Create the charts of the dashboard | [NPM](https://www.npmjs.com/package/recharts), [Website](https://recharts.org/en-US/) and [GitHub](https://github.com/recharts/recharts)
+**Styled Components** | Style the components of the application | [NPM](https://www.npmjs.com/package/recharts), [Website](https://recharts.org/en-US/) and [GitHub](https://github.com/recharts/recharts)
+**React CountUp** | Animation of numbers when entering the dashboard | [NPM](https://www.npmjs.com/package/styled-components), [Website](https://styled-components.com/) and [GitHub](https://github.com/glennreyes/react-countup)
+**Recharts** | Create the charts of the dashboard | [NPM](https://www.npmjs.com/package/recharts), [Website](https://recharts.org/en-US/) and [GitHub](https://github.com/styled-components/styled-components)
 
 **Credits to [rodrigorgtic](https://github.com/rodrigorgtic) for his good course! 💙**
 
