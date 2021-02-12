@@ -22,6 +22,8 @@ Create a `git clone` or download the source of the project. Use a package manage
  yarn install
 ```
 
+  
+  
 ## 🌬️ Usage
 
 To run this project, simple use:
@@ -34,6 +36,8 @@ To run this project, simple use:
  yarn start
 ```
 
+  
+  
 ## 🙌 Credits and Libraries
   
 Library | Used for | NPM and Documentation
@@ -42,15 +46,17 @@ Library | Used for | NPM and Documentation
 **React CountUp** | Animation of numbers when entering the dashboard | [NPM](https://www.npmjs.com/package/react-countup), [Website](https://inorganik.github.io/countUp.js/) and [GitHub](https://github.com/glennreyes/react-countup)
 **Recharts** | Create the charts of the dashboard | [NPM](https://www.npmjs.com/package/recharts), [Website](https://recharts.org/en-US/) and [GitHub](https://github.com/recharts/recharts)
 
----
-
 **Credits to [rodrigorgtic](https://github.com/rodrigorgtic) for his good course! 💙**
 
+  
+  
 ## 📜 License
 
 This software is licensed under the [MIT License](https://github.com/YuriLopesM/minha-carteira-dashboard/blob/master/LICENSE) © [rodrigorgtic](https://github.com/rodrigorgtic).
 
-## About the creator
+  
+  
+## 🧑‍  About the creator
 
 <p align="center">
   <img src="https://i.ibb.co/x7d4DBt/Asset-1.png" alt="Logo" border="0">
