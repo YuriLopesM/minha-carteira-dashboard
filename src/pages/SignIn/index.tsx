@@ -30,7 +30,7 @@ const SignIn: React.FC = () => {
                 <FormTitle>Entrar</FormTitle>
 
                 <Input 
-                    type="email" 
+                    type="text" 
                     placeholder="Email" 
                     required 
                     onChange={(e) => setEmail(e.target.value)}

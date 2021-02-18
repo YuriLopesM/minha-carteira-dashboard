@@ -16,18 +16,13 @@ const AuthProvider: React.FC = ({ children }) => {
     });
 
     const signIn = (email: string, password: string) => {
-        if(emails.includes(email) && password === '1234'){
+        if(email && password){
             localStorage.setItem('@minha-carteira:logged', 'true');
             setLogged(true);
         }else{
             alert('Senha ou usuário inválidos!');
         }
     }
-
-    let emails: string[] = [
-        'yuri@email.com',
-        'roberto@gmail.com'
-    ]
 
     const signOut = () => {
         localStorage.removeItem('@minha-carteira:logged');
