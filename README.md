@@ -18,7 +18,7 @@ Mobile Version:
 ## 🚩 Table of Contents
 
 - [Installation](#-installation)
-- [Usage](#-usage)
+- [Usage](#%EF%B8%8F-usage)
 - [Credits and Libraries](#-credits-and-libraries)
 - [License](#-license)
 
@@ -63,7 +63,7 @@ Library | Used for | Documentation
 This software is licensed under the [MIT License](https://github.com/YuriLopesM/minha-carteira-dashboard/blob/master/LICENSE) © [rodrigorgtic](https://github.com/rodrigorgtic).
 
   
-## 🧑‍  About the creator
+## :smile:  About the creator
 
 <p align="center">
   <img src="https://i.ibb.co/x7d4DBt/Asset-1.png" alt="Logo" border="0">
