@@ -3,7 +3,7 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 
 ![MinhaCarteiraDashboard](https://user-images.githubusercontent.com/75103144/109852856-03deaa80-7c34-11eb-864d-a5507d0c5297.gif)
 
-Mobile Version: 
+### 📱 Mobile Version: 
 <p align="center">
   <img width="247" height="533" src="https://user-images.githubusercontent.com/75103144/109852891-0ccf7c00-7c34-11eb-8d58-d9c74a953386.gif">
 </p>
