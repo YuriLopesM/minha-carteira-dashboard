@@ -1,6 +1,13 @@
 # 💵 "Minha Carteira" Dashboard
 Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeScript 📘💙
 
+![MinhaCarteiraDashboard](https://user-images.githubusercontent.com/75103144/109852856-03deaa80-7c34-11eb-864d-a5507d0c5297.gif)
+
+Mobile Version: 
+ 
+![MinhaCarteiraDashboardMobile](https://user-images.githubusercontent.com/75103144/109852891-0ccf7c00-7c34-11eb-8d58-d9c74a953386.gif)
+
+
 ## 📢 Description
 
 **“Minha Carteira” (My Wallet)** is an application to organize your bills, using dashboards to view information and pages for cash inflows and outflows.
@@ -11,7 +18,7 @@ Web app created by Rodrigo Gonçalves in a Udemy course using ReactJS and TypeSc
 ## 🚩 Table of Contents
 
 - [Installation](#-installation)
-- [Usage](#-Usage)
+- [Usage](#-usage)
 - [Credits and Libraries](#-credits-and-libraries)
 - [License](#-license)
 
